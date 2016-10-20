@@ -8,8 +8,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="/assets/css/default.css"/>
     </head>
+    
     <body>
         <div id="container">
+        	{navbar}
             {content}
             <p class="footer">Page rendered in <strong>0.0364</strong> seconds. 
                 {ci_version}</p>
